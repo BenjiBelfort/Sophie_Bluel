@@ -1,0 +1,93 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    width: 100%;
+    max-width: 1140px;
+	margin: 50px auto;
+}
+
+h1 > span {
+	text-align: left;
+}
+
+.login {
+    display: flex;
+    justify-content: center;
+}
+
+.login-container {
+    padding: 20px;
+    border-radius: 5px;
+    width: 380px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+}
+
+.login-container form {
+    text-align: left;
+	margin-top:30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.login-container label {
+    display: block;
+    margin: 2em 0 1em 0;
+}
+
+.login-container input {
+    width: 100%;
+    height: 50px;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    border: none;
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
+    box-sizing: border-box;
+    background-color: white; /* Assurez-vous que le fond est blanc */
+    outline: none; /* Enlève le contour par défaut */
+}
+
+.login-container input:focus,
+.login-container input:active {
+    background-color: white; /* Conserver le fond blanc */
+    box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09); /* Conserver la même ombre */
+    border: none; /* Conserver la bordure inexistante */
+    outline: none; /* Enlève le contour par défaut */
+}
+
+.login-container button {
+    font-family: 'Syne';
+	font-weight: 700;
+    width: 50%;
+    padding: 10px;
+    background-color: #1D6154;
+    border: 2px solid #1D6154;
+	text-align: center;
+	border-radius: 60px;
+    color: white;
+    box-sizing: border-box;
+	margin : 2em auto ;
+}
+
+.login-container button:hover {
+    background-color: white;
+    color: #1D6154;
+    border: 2px solid #1D6154;
+}
+
+.login-container a {
+    display: block;
+    margin-top: 10px;
+    color: black;
+    margin : 1em auto ;
+}
+
