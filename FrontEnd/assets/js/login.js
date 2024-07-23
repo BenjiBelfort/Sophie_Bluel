@@ -28,8 +28,7 @@ loginForm.addEventListener('submit', function(event){
     // permet de créer le message d'erreur dans la console et HTML
     .catch(error => {
         console.log(error);
-        alert("Erreur de saisie ! Votre identifiant et/ou mot de passe sont incorrects"); // pop up du navigateur
+        alert("Erreur de saisie ! Votre identifiant et/ou mot de passe sont incorrects");
     });
     console.log(sessionStorage.getItem('token'));
 });
-

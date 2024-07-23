@@ -52,7 +52,6 @@ body {
 	font-family: 'Work Sans' ;
 	font-size: 14px;
 }
-
 .edition_mode {
 	display: none;
 	align-items: center;
@@ -63,24 +62,20 @@ body {
 	color: white;
 	gap: 10px;
 }
-
 header {
 	max-width: 1140px;
 	margin: 50px auto;
 	display: flex;
 	justify-content: space-between;
 }
-
 main {
 	max-width: 1140px;
 	margin: auto;
 }
-
 section {
 	margin: 50px 0
 }
-
-h1{
+h1 {
 	display: flex;
 	flex-direction: column;
 	font-family: 'Syne';
@@ -88,20 +83,17 @@ h1{
 	font-weight: 800;
 	color: #B1663C
 }
-
 h1 > span {
 	font-family: 'Work Sans';
 	font-size:10px;
 	letter-spacing: 0.1em;
 }
-
-h2{
+h2 {
 	font-family: 'Syne';
 	font-weight: 700;
 	font-size: 30px;
 	color: #1D6154
 }
-
 nav ul {
 	display: flex;
 	align-items: center;
@@ -112,12 +104,10 @@ nav li {
 	padding: 0 10px;
 	font-size: 1.2em;
 }
-
 nav li a {
 	color: inherit;
 	text-decoration: none;
 }
-
 li a:hover {
 	color: #B1663C;
 }
@@ -133,29 +123,24 @@ li a:hover {
 	margin: auto;
 	width: 80%;
 }
-
 #introduction article {
 	flex: 1
 }
 #introduction h2 {
 	margin-bottom: 1em;
 }
-
 #introduction p {
 	margin-bottom: 0.5em;
 }
-
 .title-container {
 	display: flex;
 	justify-content: center;
 	position: relative;
 }
-
 .title-container h2 {
 	margin-bottom: 1em;
 	position: relative;
 }
-
 #modal-button {
 	background: none;
 	border: none;
@@ -168,17 +153,14 @@ li a:hover {
 	cursor: pointer;
 	letter-spacing: 2px;
 }
-
 .modify-button i {
 	margin-right: 8px;
 }
-
 .filter_buttons {
 	display: flex;
 	justify-content: center;
 	margin-bottom: 30px;
 }
-
 .filter_buttons button {
 	font-family: 'Syne';
 	font-weight: normal;
@@ -191,16 +173,13 @@ li a:hover {
 	cursor: pointer;
 	transition: background-color 0.3s, color 0.3s;
 }
-
 .filter_buttons button:hover,
 .filter_buttons button.active {
     background-color: #1D6154;
     color: white;
 }
-
 .filter_buttons button.active-intermediate {
-    background-color: rgba(29, 97, 84, 0.3); /* 30% de la couleur */
-    
+    background-color: rgba(29, 97, 84, 0.3);
 }
 .gallery {
 	width: 100%;
@@ -209,11 +188,9 @@ li a:hover {
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 }
-
 .gallery img {
 	width: 100%;
 }
-
 /* css de l'overlay */
 .overlay {
 	position: fixed;
@@ -224,7 +201,6 @@ li a:hover {
 	background-color: rgba(0, 0, 0, 0.6);
 	display: none;
 }
-
 /* css de la modale */
 .modal {
 	position: fixed;
@@ -243,18 +219,13 @@ li a:hover {
 	overflow: hidden;
 	z-index: 999;
 }
-
-
-
 .modal1 {
 	display: none;
 }
-
 .modal2 {
 	display: none;
 	flex-direction: column;
 }
-
 .modal__close {
 	position: absolute;
 	top: 26px;
@@ -263,7 +234,6 @@ li a:hover {
 	border: none;
 	cursor: pointer;
 }
-
 .modal__back {
 	position: absolute;
 	top: 26px;
@@ -272,18 +242,15 @@ li a:hover {
 	border: none;
 	cursor: pointer;
 }
-
 .modal__close i,
 .modal__back i {
 	font-size: 20px;
 }
-
 .modal__title {
 	margin: 60px 0 30px 0;
     text-align: center;
     font-size: 24px;
 }
-
 .modal__gallery {
 	width: 420px;
 	height: 450px;
@@ -293,19 +260,16 @@ li a:hover {
 	grid-row-gap: 20px;
 	margin: auto;
 	overflow: hidden;
-	overflow-y: scroll; /* Only vertical scroll */
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+	overflow-y: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
-
 .modal__gallery img {
 	width: 100%;
 }
-
 .modal-work-item {
 	position: relative;
 }
-
 .trash-icon {
 	position: absolute;
     top: 6px;
@@ -321,14 +285,12 @@ li a:hover {
     text-align: center;
     border-radius: 3px;
 }
-
 .modal__form {
 	width: 420px;
 	display: flex;
 	flex-direction: column;
 	margin: auto;
 }
-
 .ajout-photo {
 	position: relative;
 	display: flex;
@@ -339,18 +301,16 @@ li a:hover {
 	height: 170px;
 	border-radius: 3px;
 	background-color: #E8F1F6;
+	overflow: hidden;
 }
-
 .ajout-photo i {
 	font-size: 70px;
 	color: #B9C5CC;
 }
-
 .ajout-photo p {
 	font-size: 10px;
 	color: #444444;
 }
-
 .input-container {
 	display: flex;
 	flex-direction: column;
@@ -360,11 +320,9 @@ li a:hover {
 	box-sizing: border-box;
 	padding: 20px 0;
 }
-
 #photo {
 	display: none;
 }
-
 .file-label {
 	width: 173px;
 	height: 36px;
@@ -378,7 +336,6 @@ li a:hover {
 	text-align: center;
 	align-content: center;
 }
-
 #photo-preview {
     position: absolute;
     top: 50%;
@@ -389,7 +346,6 @@ li a:hover {
     object-fit: cover;
 	z-index: 0;
 }
-
 .remove-photo {
     position: absolute;
     top: 10px;
@@ -406,7 +362,6 @@ li a:hover {
     font-size: 20px;
     z-index: 1;
 }
-
 .modal__form #titre,
 .modal__form #category {
 	width: 100%;
@@ -419,20 +374,17 @@ li a:hover {
     background-color: white;
     outline: none;
 }
-
 .modal__footer {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
-
 .modal__footer__line {
 	width: 420px;
 	height: 1px;
 	background-color: #B3B3B3;
 	margin: 20px auto;
 }
-
 .modal__footer__button {
 	width: 237px;
 	height: 36px;
@@ -444,7 +396,6 @@ li a:hover {
 	cursor: pointer;
 	margin: 25px;
 }
-
 .modal__footer__button2 {
 	width: 237px;
 	height: 36px;
@@ -456,12 +407,10 @@ li a:hover {
 	cursor: pointer;
 	margin: 25px;
 }
-
 .modal__footer__button2[disabled] {
     background-color: #A7A7A7;
     cursor: not-allowed;
 }
-
 /* Fin css de la modale */
 
 /* modale de suppression */
@@ -476,22 +425,32 @@ li a:hover {
 	justify-content: center;
 	align-items: center;
 	z-index: 1000;
-  }
-  
-  .modal-content {
+}
+.modal-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	background: white;
 	padding: 20px;
 	border-radius: 5px;
 	text-align: center;
-  }
-
-  .modal-content i {
+}
+.modal-content i {
 	font-size: 50px;
 	margin-bottom: 20px;
 	color: rgba(255, 0, 0, 0.5);
-  }
-  
-  .modal-content button {
+}
+.delete-preview-image {
+	margin-top: 15px;
+	width: 170px;
+	height: auto;
+	max-height: 250px;
+	object-fit: scale-down;
+}
+.delete-button-container {
+	display: flex;
+}
+.modal-content button {
     font-family: 'Syne';
 	font-weight: 700;
 	width: 150px;
@@ -504,26 +463,26 @@ li a:hover {
     box-sizing: border-box;
 	margin : 40px;
 	cursor: pointer;
-  }
-  
- #cancelDelete:hover {
+}
+#cancelDelete:hover {
     background-color: white;
     color: #1D6154;
     border: 2px solid #1D6154;
 }
-
 #confirmDelete {
 	background-color: rgba(255, 0, 0, 0.5);
 	color: black;
 	border: 2px solid black;
 }
-
 #confirmDelete:hover {
 	background-color: red;
 	color: white;
 	border: 2px solid black;
 }
-
+.alerte {
+	font-size: 22px;
+	font-weight: bold;
+}
 /* Fin modale de suppression */
 
 #contact {
@@ -542,7 +501,6 @@ li a:hover {
 	display: flex;
 	flex-direction: column;
 }
-
 #contact input {
 	height: 50px;
 	font-size: 1.2em;
@@ -556,7 +514,6 @@ li a:hover {
 	border: none;
 	box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.09);
 }
-
 input[type="submit"]{
 	font-family: 'Syne';
 	font-weight: 700;
@@ -567,15 +524,12 @@ input[type="submit"]{
 	text-align: center;
 	border-radius: 60px;
 }
-
 footer {
 	height: 60px;
 	background-color: white;
 	overflow: hidden;
 	align-content: center;
 }
-
-
 footer nav ul {
 	display: flex;
 	justify-content: flex-end;
